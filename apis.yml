@@ -1,43 +1,39 @@
-aid: economic-development-administration
+aid: about-exim-exim-gov-export-import-bank-of-the-united-states
 url: >-
-  https://raw.githubusercontent.com/api-evangelist/economic-development-administration/main/apis.yml
-apis:
-  - aid: economic-development-administration:economic-development-administration
-    name: Economic Development Agency
-    tags:
-      - Federal Government
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
-    humanURL: https://www.dni.gov/
-    properties:
-      - url: https://www.dni.gov/
-        type: Documentation
-    description: >-
-      The U.S. Economic Development Administration (EDA) is an agency in the
-      United States Department of Commerce that provides grants and technical
-      assistance to economically distressed communities in order to generate new
-      employment, help retain existing jobs and stimulate industrial and
-      commercial growth through a variety of investment programs. EDA works with
-      boards and communities across the country on economic development
-      strategies.
-name: Economic Development Agency
+  https://raw.githubusercontent.com/api-evangelist/about-exim-exim-gov-export-import-bank-of-the-united-states/refs/heads/main/apis.yml
+name: Export-Import Bank of the United States
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Federal Government
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-created: '2024-07-11'
-modified: '2024-12-03'
+  - Export
+  - Import
+  - Finance
 description: >-
-  The U.S. Economic Development Administration (EDA) is an agency in the United
-  States Department of Commerce that provides grants and technical assistance to
-  economically distressed communities in order to generate new employment, help
-  retain existing jobs and stimulate industrial and commercial growth through a
-  variety of investment programs. EDA works with boards and communities across
-  the country on economic development strategies.
+  The U.S. Export-Import Bank (EXIM) is the official export credit agency of
+  the United States federal government. It assists in financing and facilitating
+  U.S. exports of goods and services by providing export credit insurance,
+  working capital guarantees, and direct loans to help American businesses
+  compete in the global marketplace.
+created: '2024-07-11'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: about-exim-exim-gov-export-import-bank-of-the-united-states:exim
+    name: Export-Import Bank API
+    tags:
+      - Federal Government
+      - Export
+    humanURL: https://www.exim.gov/
+    properties:
+      - url: https://www.exim.gov/
+        type: Documentation
+    description: >-
+      The U.S. Export-Import Bank provides financing and credit to support
+      American exports and global trade.
+common:
+  - type: Website
+    url: https://www.exim.gov/
 maintainers:
-  - FN: API Evangelist
-    url: http://apievangelist.com
-    email: info@apievangelist.com
-specificationVersion: '0.18'
-type: Index
-position: Consumer
-access: 3rd-Party
+  - FN: Kin Lane
+    email: kin@apievangelist.com
