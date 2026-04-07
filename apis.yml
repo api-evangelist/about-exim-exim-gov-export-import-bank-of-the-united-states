@@ -5,10 +5,10 @@ name: Export-Import Bank of the United States
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Federal Government
   - Export
-  - Import
+  - Federal Government
   - Finance
+  - Import
 description: >-
   The U.S. Export-Import Bank (EXIM) is the official export credit agency of
   the United States federal government. It assists in financing and facilitating
@@ -22,8 +22,8 @@ apis:
   - aid: about-exim-exim-gov-export-import-bank-of-the-united-states:exim
     name: Export-Import Bank API
     tags:
-      - Federal Government
       - Export
+      - Federal Government
     humanURL: https://www.exim.gov/
     properties:
       - url: https://www.exim.gov/
